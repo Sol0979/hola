@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:fb="http://ogp.me/ns/fb#">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="TWICE OFFICIAL FANCLUB ONCE JAPAN。TWICEのオフィシャルファンクラブ"><meta name="robots" content="index, follow"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no" />
+<meta name="format-detection" content="telephone=no">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="TWICE OFFICIAL FANCLUB ONCE JAPAN">
+<meta property="og:title" content="TWICE OFFICIAL FANCLUB ONCE JAPAN">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:url" content="https://oncejapan.com/">
+<meta property="og:image" content="https://oncejapan.com/og-img_fc.png">
+<meta property="fb:app_id" content="">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="TWICE OFFICIAL FANCLUB ONCE JAPAN">
+<meta name="twitter:title" content="TWICE OFFICIAL FANCLUB ONCE JAPAN">
+<meta name="twitter:description" content="TWICE OFFICIAL FANCLUB ONCE JAPAN。TWICEのオフィシャルファンクラブ">
+<meta name="twitter:url" content="https://oncejapan.com/">
+<meta name="twitter:image" content="https://oncejapan.com/og-img_fc.png">
+
+<title>TWICE OFFICIAL FANCLUB ONCE JAPAN</title>
+
+
+
+<meta name="theme-color" content="#FED0D0">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon_fc.png">
+<link href="https://cmn-assets.plusmember.jp/webfont/assets/font/fontawesome/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/afq5kps.css">
+  <link rel="stylesheet" href="/static/original/fanclub_renewal/plugin/swiper.css">
+<link rel="stylesheet" href="/static/original/fanclub_renewal/css/fanclub-service.css?=2023111127">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="/static/original/fanclub_renewal/plugin/delighters.min.js"></script>
+  <script src="/static/original/fanclub_renewal/plugin/swiper.min.js"></script>
+  <script src="/static/original/fanclub_renewal/js/common.js?=20231111"></script>
+
+
+
+<link rel="stylesheet" href="/static/common/css/cookieconsent.min.css?=20231111">
+<script src="/static/common/js/cookieconsent.min.js"></script>
+<script>
+var gdpr_config = {"palette":{"popup":{"background":"#edeff5","text":"#838391"},"button":{"background":"#4b81e8","text":"#ffffff"}},"theme":"classic","content":{"message":"This website uses technology such as cookies, tags, etc. for statistics and tabulation based on access history as well as to identify devices and improve usability.","dismiss":"Agree","link":"&gt;&gt; More details are available here.","target":"_self","href":"\/feature\/privacy"},"cookie":{"name":"GDPR_twice_145","expiryDays":60},"url":"https:\/\/secure.plusmember.jp\/twice\/1\/"}; 
+let ssl_domain = gdpr_config.url + "gdpr/cookie/?";
+delete gdpr_config.url;
+
+var getCookieVal = function(key){
+  return ((document.cookie + ';').match(key + '=([^\S;]*)')||[])[1];
+}
+
+var getParameterVal = function(key) {
+  var str = location.search.split("?");
+  if (str.length < 2) {
+    return "";
+  }
+
+  var params = str[1].split("&");
+  for (var i = 0; i < params.length; i++) {
+    var keyVal = params[i].split("=");
+    if (keyVal[0] == key && keyVal.length == 2) {
+      return decodeURIComponent(keyVal[1]);
+    }
+  }
+  return "";
+}
+
+
+gdpr_config.onStatusChange = function(){
+  let val = getCookieVal(gdpr_config.cookie.name);
+
+  var url = getParameterVal('gdpr_ref');
+  if ( url.length==0 ){
+    url = location.href
+  }
+  let ref = encodeURIComponent(url);
+
+  let action = ssl_domain + 'name=' + gdpr_config.cookie.name + '&value=' + val + '&gdpr_ref=' + ref;
+
+  location.href = action;
+};
+
+
+window.addEventListener("load", {
+  config: gdpr_config,
+  handleEvent(ev) {
+    window.cookieconsent.initialise(this.config);
+  }
+});
+
+</script>
+
+
+            <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  
+  ga('create', 'UA-91229525-3', 'auto', {'allowLinker': true});
+    ga('require', 'linker');
+  ga('linker:autoLink', ['secure.plusmember.jp' ]);
+
+
+  var browsingapp = 'false';
+  ga('set', 'dimension5', browsingapp);
+	
+
+
+  var member =  '0';
+  ga('set', 'dimension1', member);
+
+  var member_hit = '0';
+  ga('set', 'dimension6', member_hit);
+
+  ga('send', 'pageview');
+</script>
+
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0T2N9898W8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+                    gtag('config', 'G-0T2N9898W8');
+                gtag('set', 'linker', {
+            'accept_incoming': true,
+            'domains': ['secure.plusmember.jp']
+        });
+
+                    var browsingapp = 'false';
+            gtag('set', 'dimension5', browsingapp);
+        
+                    var member =  '0';
+            gtag('set', 'dimension1', member);
+            var member_hit = '0';
+            gtag('set', 'dimension6', member_hit);
+            </script>
+
+</head>
+
+<body   class="page--home" style="" onContextmenu="return true">
+<noscript>
+<div class="noteBox">
+<p class="note">JavaScriptが無効になっています</p>
+<p>本サービスをお楽しみいただくには、JavaScript を有効にする必要があります。</p>
+</div>
+</noscript>
+
+<div id="wrapper" class="wrap">
+<header id="header" class="header">
+<h1 class="logo"><a href="https://oncejapan.com/"><img src="/static/twice/fanclub/cmn/fc_logo.png" alt="TWICE OFFICIAL FANCLUB ONCE JAPAN"></a></h1>
+<nav class="nav--login pc">
+	<ul class="list--login">
+			<li class="join"><a href="https://oncejapan.com/feature/entry">SIGN UP</a></li>
+	<li class="login"><a href="https://secure.plusmember.jp/twice/1/login/?lang=en">SIGN IN</a></li>
+	</ul>
+</nav>
+<nav class="nav--menu pc">
+<ul class="list--nav">
+
+<li class="nav--home"><a href="https://oncejapan.com/">HOME</a></li>
+<li class="nav--news"><a href="https://oncejapan.com/news">NEWS</a></li>
+	<li class="nav--gallery"><a href="https://oncejapan.com/photo/list/10">GALLERY</a></li>
+	<li class="nav--movie"><a href="https://oncejapan.com/movie/list/5">MOVIE</a></li>
+	<li class="nav--staffblog"><a href="https://oncejapan.com/blog/twice/list">STAFF BLOG</a></li>
+		<li class="nav--magazine"><a href="https://oncejapan.com/newsletter/image/list/18">MAGAZINE</a></li>
+	<li class="nav--goods"><a href="https://store.plusmember.jp/oncejapan/" target="_blank">GOODS</a></li>
+		<li class="nav--ticket"><a href="https://oncejapan.com/ticket">TICKET</a></li>
+</ul>
+</nav>
+
+<div class="drawer__btn" id="drawer__btn"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+<div class="langBar">
+	<p class="langSelector">
+<select name="lang" id="language-selectorTop">
+			<option value="ja">JP</option>
+				<option value="en" selected>EN</option>
+				<option value="zh-tw">ZH</option>
+				<option value="ko">KO</option>
+		</select>
+</p><!-- langSelector -->
+<div id="language-formTop"></div>
+<script src="/static/original/fanclub-pc/js/easyselectbox.min.js"></script>
+
+<script>
+$(function() {
+var ua = navigator.userAgent;
+//if (window.matchMedia('screen and (max-width:1000px)').matches) {
+//} else {
+$('#language-selector,#language-selectorTop').easySelectBox({speed:200,
+onClick: function (data) {
+  var selectObj = $(this).data('easySelectData').selectObj;
+  selectObj.trigger('change');
+  }
+});
+$('.easy-select-box').on('click', function(){ $(this).toggleClass('open');});
+//}
+
+$('select#language-selector,select#language-selectorTop').on('change', function(){
+ var lang = $(this).val();
+  $('<form/>', {action: '', method: 'get'})
+  .append($('<input/>', {type: 'hidden', name: 'lang', value: lang}))
+  .appendTo($('div#language-form,div#language-formTop'))
+  .submit();
+});
+});
+</script>
+</div>
+</header>
+
+<div class="drawer">
+  <div class="drawer-inner">
+		<div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#FFEBC7ff">
+		    <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+		  </svg></div>
+
+
+		<div class="block--menu">
+			<nav class="nav--login">
+		    <h1 class="logo"><a href="https://oncejapan.com/"><img src="/static/twice/fanclub/cmn/fc_logo.png" alt="TWICE OFFICIAL FANCLUB ONCE JAPAN"></a></h1>
+				<ul class="list--login">
+						<li class="join"><a href="https://oncejapan.com/feature/entry">SIGN UP</a></li>
+	<li class="login"><a href="https://secure.plusmember.jp/twice/1/login/?lang=en">SIGN IN</a></li>
+				</ul>
+	    </nav>
+    <nav class="nav--menu">
+			<ul class="list--nav">
+				
+<li class="nav--home"><a href="https://oncejapan.com/">HOME</a></li>
+<li class="nav--news"><a href="https://oncejapan.com/news">NEWS</a></li>
+	<li class="nav--gallery"><a href="https://oncejapan.com/photo/list/10">GALLERY</a></li>
+	<li class="nav--movie"><a href="https://oncejapan.com/movie/list/5">MOVIE</a></li>
+	<li class="nav--staffblog"><a href="https://oncejapan.com/blog/twice/list">STAFF BLOG</a></li>
+		<li class="nav--magazine"><a href="https://oncejapan.com/newsletter/image/list/18">MAGAZINE</a></li>
+	<li class="nav--goods"><a href="https://store.plusmember.jp/oncejapan/" target="_blank">GOODS</a></li>
+		<li class="nav--ticket"><a href="https://oncejapan.com/ticket">TICKET</a></li>
+			</ul>
+    </nav>
+		</div>
+  </div>
+</div><!-- / drawer -->
+
+<main id="contents" class="content-main" role="main">
+<div class="scroll pc"><div><span>scroll down</span></div></div>
+
+
+
+<section class="section--hero">
+<style>
+.block--image{ background: #7bc0d9;}
+.block--image .blur--img{display: none;}
+@media screen and (min-width: 961px){
+.page--home .section--hero{ margin-bottom:1vh;}
+.page--home .section--hero .block--image{height: 60vw;}
+.page--home .section--banner .block--wave{top:-31vw;}
+}
+@media screen and (max-width: 960px){
+.page--home .section--hero .block--image {height: 103vw;}
+}
+</style>
+<div class="block--image">
+<img src="/static/common/global-image/dummy.gif" style="background-image:url(https://oncejapan.com//static/twice/contents/upimg/61cb305b57a14d409ecbc9d5de89df7e.jpeg)" alt="TWICE OFFICIAL FANCLUB ONCE JAPAN">
+<img src="/static/common/global-image/dummy.gif" class="blur--img" style="background-image:url(https://oncejapan.com//static/twice/contents/upimg/61cb305b57a14d409ecbc9d5de89df7e.jpeg)" alt="TWICE OFFICIAL FANCLUB ONCE JAPAN" aria-hidden="">
+</div>
+
+<div class="block--text">
+  <div class="block--wave sp"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#fdddddff">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+    </svg></div>
+
+<div class="block--text__inner">
+  <div class="block--text__logo">
+    <h1 class="logo"><a href="https://oncejapan.com/">TWICE OFFICIAL FANCLUB ONCE JAPAN</a></h1>
+  </div>
+  <div class="block--text__member">
+  <ul class="list--login">
+
+               	<li class="join"><a href="https://oncejapan.com/feature/entry">SIGN UP</a></li>
+	<li class="login"><a href="https://secure.plusmember.jp/twice/1/login/?lang=en">SIGN IN</a></li>
+      </ul>
+    
+
+  
+</section>
+
+
+<section class="section--banner" id="section--banner">
+  <div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#f7bcbcff">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+    </svg></div>
+  <div class="block--banner-swiper">
+      <ul class="swiper-wrapper">
+      <li class="swiper-slide"><a href="https://www.twicejapan.com/feature/misamoshowcase2023_livedvd" target="_self"><img src="https://s3-aop.plusmember.jp/prod/public/twice/contents/banner/e048ededdc04d89453c84ad845668558.jpeg" alt="MISAMO JAPAN SHOWCASE &#039;Masterpiece&#039; DVD/Blu-ray"/></a></li>
+      <li class="swiper-slide"><a href="https://store.plusmember.jp/oncejapan/products/list.php?category_id=3495" target="_self"><img src="https://s3-aop.plusmember.jp/prod/public/twice/contents/banner/f378c01ead8184997098ae6e191cab02.jpeg" alt="TWICE 5TH WORLD TOUR ‘READY TO BE’ in JAPAN追加公演グッズ"/></a></li>
+      <li class="swiper-slide"><a href="https://www.twicejapan.com/feature/twicejapan_albumVINYL" target="_self"><img src="https://s3-aop.plusmember.jp/prod/public/twice/contents/banner/5e0fb5a7e01bdfa8daeeb6aa2782faa5.jpeg" alt="TWICE JAPAN ALBUM VINYL（1st～3rd）"/></a></li>
+      <li class="swiper-slide"><a href="https://www.twicejapan.com/feature/bestalbumVINYL" target="_self"><img src="https://s3-aop.plusmember.jp/prod/public/twice/contents/banner/561cd05bb911b569a8032852a49c4e4e.jpeg" alt="bestalbumVINYL"/></a></li>
+      <li class="swiper-slide"><a href="https://www.twicejapan.com/feature/6thanniv" target="_self"><img src="https://s3-aop.plusmember.jp/prod/public/twice/contents/banner/3bf4922c2a2b74e63fd9d84268750236.jpeg" alt="twicejapan6th"/></a></li>
+      <li class="swiper-slide"><a href="https://www.twicejapan.com/feature/5thworldtour_readytobe?lang=en" target="_self"><img src="https://s3-aop.plusmember.jp/prod/public/twice/contents/banner/03335db0ebd731366f4a21ec148bbcee.jpeg" alt="5thtouren"/></a></li>
+  </ul>
+
+    <div class="block--navigator">
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-next"></div>
+  </div>
+</div>
+</section>
+
+<section class="section--information" id="section--information">
+  <div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#FFEBC7ff">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+    </svg></div>
+
+<div class="section--inner">
+  <div class="block--title">
+    <div class="line--left"></div>
+    <div class="section-tit"><div class="num">01</div>NEWS</div>
+    <div class="line--right"></div>
+  </div>
+
+  <ul class="list--information">
+      <li class="list--item">
+    <a href="/news/detail/962">
+    <p class="date">11/04/2022</p>
+    <p class="tit">March 2022 - February 2023 Continuation Benefits</p>
+    </a>
+    </li>
+      <li class="list--item">
+    <a href="/news/detail/905">
+    <p class="date">14/01/2022</p>
+    <p class="tit">ONCE JAPAN  Information on the shipment of membership cards and benefits (for members who joined after December 2021)</p>
+    </a>
+    </li>
+      <li class="list--item">
+    <a href="/news/detail/679">
+    <p class="date">12/11/2020</p>
+    <p class="tit"> [11/19 (Thursday) 00: 30-05: 00] Notice of system maintenance</p>
+    </a>
+    </li>
+      <li class="list--item">
+    <a href="/news/detail/660">
+    <p class="date">03/09/2020</p>
+    <p class="tit">Notice regarding cancellation &amp; ticket refunds for the rescheduled (formerly 15th &amp; 16th April) Tokyo Dome shows of the 「TWICE WORLD TOUR 2019 ‘TWICELIGHTS’ IN JAPAN」</p>
+    </a>
+    </li>
+      <li class="list--item">
+    <a href="/news/detail/583">
+    <p class="date">16/03/2020</p>
+    <p class="tit">Important Notice: Operating Company Name Change</p>
+    </a>
+    </li>
+    </ul>
+  <p class="list__more"><a href="https://oncejapan.com/news">VIEW MORE</a></p>
+</div>
+</section>
+
+
+<section class="section--blog" id="section--blog">
+  <div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#F7BCBCff">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+    </svg></div>
+
+<div class="section--inner">
+  <div class="block--title">
+    <div class="line--left"></div>
+    <div class="section-tit"><div class="num">02</div>STAFF BLOG</div>
+    <div class="line--right"></div>
+  </div>
+
+    <div class="block--blog-swiper">
+  	<ul class="list--contents swiper-wrapper list--blog nonlogin">
+  	  		<li class="list--item">
+  		<a href="/blog/twice/detail/2107388">
+  		<figure class="thumb">
+  		<img src="/static/twice/fanclub/cmn/dummy.gif" style="background-image:url(https://s3-ap-northeast-1.amazonaws.com/sns-emtg-jp/prod/sns45/public/photo/20231008/20231008183831_cf730a27865dc4a3708705e4c48d651f.jpeg)" alt="『Hare Hare』リリースイベント 2日目！">
+      <div class="thumb--cover">
+        <div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#FC8B8Bff">
+            <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+          </svg></div>
+
+      </div>
+      </figure>
+  		<p class="date">08/10/2023</p>  		<p class="tit">『Hare Hare』リリースイベント 2日目！</p>
+  		</a>
+  		</li>
+  	  		<li class="list--item">
+  		<a href="/blog/twice/detail/2106787">
+  		<figure class="thumb">
+  		<img src="/static/twice/fanclub/cmn/dummy.gif" style="background-image:url(https://s3-ap-northeast-1.amazonaws.com/sns-emtg-jp/prod/sns45/public/photo/20231007/20231007173801_159eca13504909f4e44d07b50ae6c44b.jpeg)" alt="『Hare Hare』リリースイベント 初日！">
+      <div class="thumb--cover">
+        <div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#FC8B8Bff">
+            <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+          </svg></div>
+
+      </div>
+      </figure>
+  		<p class="date">07/10/2023</p>  		<p class="tit">『Hare Hare』リリースイベント 初日！</p>
+  		</a>
+  		</li>
+  	  		<li class="list--item">
+  		<a href="/blog/twice/detail/2104108">
+  		<figure class="thumb">
+  		<img src="/static/twice/fanclub/cmn/dummy.gif" style="background-image:url(https://s3-ap-northeast-1.amazonaws.com/sns-emtg-jp/prod/sns45/public/photo/20231002/20231002190203_6fba94e5568881d45e0350d4dee66c42.jpeg)" alt="天気を操る妖精「1004（チョンサ）」DAY！">
+      <div class="thumb--cover">
+        <div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#FC8B8Bff">
+            <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+          </svg></div>
+
+      </div>
+      </figure>
+  		<p class="date">04/10/2023</p>  		<p class="tit">天気を操る妖精「1004（チョンサ）」DAY！</p>
+  		</a>
+  		</li>
+  	  		<li class="list--item">
+  		<a href="/blog/twice/detail/2082410">
+  		<figure class="thumb">
+  		<img src="/static/twice/fanclub/cmn/dummy.gif" style="background-image:url(https://s3-ap-northeast-1.amazonaws.com/sns-emtg-jp/prod/sns45/public/photo/20230827/20230827174516_41b06165b1ddd4d227ae5f52226c6056.jpeg)" alt="MISAMOリリースイベント＜東京最終日＞">
+      <div class="thumb--cover">
+        <div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#FC8B8Bff">
+            <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+          </svg></div>
+
+      </div>
+      </figure>
+  		<p class="date">27/08/2023</p>  		<p class="tit">MISAMOリリースイベント＜東京最終日＞</p>
+  		</a>
+  		</li>
+  	  	</ul>
+  </div>
+    <p class="list__more"><a href="https://oncejapan.com/blog/twice/list">VIEW MORE</a></p>
+
+</div>
+</section>
+
+<section class="section--latest" id="section--latest">
+  <div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#F5A3A3ff">
+      <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+    </svg></div>
+<div class="section--inner">
+  <div class="block--title">
+    <div class="line--left"></div>
+    <div class="section-tit"><div class="num">03</div>LATEST<br>CONTENTS</div>
+    <div class="line--right"></div>
+  </div>
+  <div class="block--latest-swiper">
+  <ul class="list--contents swiper-wrapper nonlogin">
+    	  		  			  		
+  		<li class="list--item__movie new">
+  		<a href="/movie/detail/1233">
+    		<figure class="thumb">
+            		  <img src="/static/twice/fanclub/cmn/dummy.gif" style="background-image:url(https://s3-aop.plusmember.jp/prod/movie/thumbnail/145/34ea45574cf24317ece9da9987920e7ed22994f055399818ce709f2bda965364_t.png)" alt="TWICEぷちChannel-Episode6-～TZUYU～">
+          <div class="thumb--cover"> <div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#FC8B8Bff">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+    </svg></div>
+        </div>
+
+        </figure>
+                <div class="block--txt">
+        <p class="date">07/11/2023<span class="category">MOVIE</span></p>
+    		<p class="tit">TWICEぷちChannel-Episode6-～TZUYU～</p>
+        </div>
+  		</a>
+  		</li>
+  	  		  			  		
+  		<li class="list--item__movie">
+  		<a href="/movie/detail/1227">
+    		<figure class="thumb">
+            		  <img src="/static/twice/fanclub/cmn/dummy.gif" style="background-image:url(https://s3-aop.plusmember.jp/prod/movie/thumbnail/145/36300fcb3319c13f2f301f07345cf941850e593580b712a7e2f074ba6a394f6d_t.png)" alt="TWICEぷちChannel-Episode6-～CHAEYOUNG～">
+          <div class="thumb--cover"> <div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#FC8B8Bff">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+    </svg></div>
+        </div>
+
+        </figure>
+                <div class="block--txt">
+        <p class="date">28/10/2023<span class="category">MOVIE</span></p>
+    		<p class="tit">TWICEぷちChannel-Episode6-～CHAEYOUNG～</p>
+        </div>
+  		</a>
+  		</li>
+  	  		  			  		
+  		<li class="list--item__movie">
+  		<a href="/movie/detail/1226">
+    		<figure class="thumb">
+            		  <img src="/static/twice/fanclub/cmn/dummy.gif" style="background-image:url(https://s3-aop.plusmember.jp/prod/movie/thumbnail/145/08556cf4e4c5edb926d10fa9eea2277b55192729cd2aec12bab460a8e66c4751_t.png)" alt="TWICEぷちChannel-Episode6-～DAHYUN～">
+          <div class="thumb--cover"> <div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#FC8B8Bff">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+    </svg></div>
+        </div>
+
+        </figure>
+                <div class="block--txt">
+        <p class="date">21/10/2023<span class="category">MOVIE</span></p>
+    		<p class="tit">TWICEぷちChannel-Episode6-～DAHYUN～</p>
+        </div>
+  		</a>
+  		</li>
+  	  		  			  		
+  		<li class="list--item__movie">
+  		<a href="/movie/detail/1222">
+    		<figure class="thumb">
+            		  <img src="/static/twice/fanclub/cmn/dummy.gif" style="background-image:url(https://s3-aop.plusmember.jp/prod/movie/thumbnail/145/1eb8a1d644a80c8f7b860a68d061d8c41d5599b6051ccbbb2b1d2efe9ae8348b_t.png)" alt="TWICEぷちChannel-Episode6-～MINA～">
+          <div class="thumb--cover"> <div class="block--wave"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#FC8B8Bff">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+    </svg></div>
+        </div>
+
+        </figure>
+                <div class="block--txt">
+        <p class="date">14/10/2023<span class="category">MOVIE</span></p>
+    		<p class="tit">TWICEぷちChannel-Episode6-～MINA～</p>
+        </div>
+  		</a>
+  		</li>
+  	    </ul>
+  </div>
+</div>
+</section>
+
+
+
+<div class="loading">
+  <div class="block--inner">
+  <h1 class="logo"><img src="/static/twice/fanclub/cmn/fc_logo.png" /></h1>
+  </div>
+  <div class="loading--wave">
+    <div class="block--wave__item"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#F5A3A3ff">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+    </svg></div>
+
+
+    <div class="block--wave__item"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="https://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#FFEBC7ff">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+    </svg></div>
+  </div><!-- loading wave -->
+</div><!-- loading -->
+
+</main>
+<!-- ====== footer ====== -->
+<footer class="footer">
+<div class="block--wave home"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#fdddddff">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+  </svg></div>
+	<div class="block--wave cmn"><svg width="100%" height="100%" viewBox="0 0 1440 700" xmlns="http://www.w3.org/2000/svg"><path d="M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z" stroke="none" stroke-width="0" fill="#F7BCBCff">
+	    <animate attributeName="d" dur="8s" repeatCount="indefinite" calcMode="linear"values="M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 117.06666666666666,342.5333333333333 234.13333333333333,335.06666666666666 403,326 C 571.8666666666667,316.93333333333334 792.5333333333333,306.26666666666665 974,310 C 1155.4666666666667,313.73333333333335 1297.7333333333333,331.8666666666667 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 193.46666666666664,320.4 386.9333333333333,290.8 557,281 C 727.0666666666667,271.2 873.7333333333333,281.2 1017,296 C 1160.2666666666667,310.8 1300.1333333333332,330.4 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 201.59999999999997,370.26666666666665 403.19999999999993,390.53333333333336 568,370 C 732.8000000000001,349.46666666666664 860.8,288.1333333333333 1000,278 C 1139.2,267.8666666666667 1289.6,308.93333333333334 1440,350 C 1440,350 1440,700 1440,700 Z;M 0,700 C 0,700 0,350 0,350 C 188.93333333333334,322.8 377.8666666666667,295.6 541,277 C 704.1333333333333,258.4 841.4666666666667,248.39999999999998 987,262 C 1132.5333333333333,275.6 1286.2666666666667,312.8 1440,350 C 1440,350 1440,700 1440,700 Z"/></path>
+	  </svg></div>
+	<div class="inner">
+	<div class="block--support">
+		<div class="block--login sp">
+			<h1 class="block--login__logo"><img src="/static/twice/fanclub/renewalu3Rg1e/common/logo__once.png" alt="TWICE OFFICIAL FANCLUB ONCE JAPAN"></h1>
+			<ul class="list--login">
+				<li class="join"><a href="https://oncejapan.com/feature/entry">SIGN UP</a></li>
+	<li class="login"><a href="https://secure.plusmember.jp/twice/1/login/?lang=en">SIGN IN</a></li>
+			</ul>
+		</div>
+
+					<dl class="list--support">
+			<dt>SUPPORT</dt>
+			<dd>
+			<ul class="nav--support">
+			<li><a href="https://oncejapan.com/feature/privacy">Privacy Policy</a></li>
+			<li><a href="https://oncejapan.com/feature/terms">Membership Agreement</a></li>
+			<li><a href="https://oncejapan.com/feature/deals">Notation Based on the Act on Specified Commercial Transactions</a></li>
+			<li><a href="https://oncejapan.com/feature/device">Recommended Environments</a></li>
+			<li><a href="https://oncejapan.com/faq">FAQs &amp; Inquiries</a></li>
+						</ul>
+			</dd>
+			</dl>
+		
+		<div class="block--link">
+			<div class="block--link__item"><a href="https://www.twicejapan.com/">TWICE OFFICIAL SITE</a></div>
+			<div class="block--link__item"><a href="https://sp.twicejapan.com/">ONCE JAPAN MOBILE</a></div>
+			<div class="block--link__item"><a href="https://www.w.oncejapan.com/" target="_blank">ONCE W MEMBER</a></div>
+		</div>
+
+	</div><!-- block support -->
+
+	<div class="block--logo">
+		<p class="block--logo__jyp"><a href="https://www.jype.com/" target="_blank"><img src="/static/twice/fanclub/renewalu3Rg1e/common/logo__jyp_f9ba2de922673a756c30434069299fa3.png" alt="JYP"></a></p>
+		<p class="block--logo__warner"><a href="https://wmg.jp/" target="_blank"><img src="/static/twice/fanclub/renewalu3Rg1e/common/logo__warner.png" alt="WARNER"></a></p>
+		<p class="copyright"><small>&copy;&nbsp;Warner Music Japan Inc.</small></p>
+	</div>
+	</div><!-- inner  -->
+</footer>
+</div><!-- /.wrap -->
+</body>
+</html>
